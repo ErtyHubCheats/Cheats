@@ -1,2 +1,2 @@
-local ver = "V3.1"
+local ver = "V3.2"
 return ver
