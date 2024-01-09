@@ -1,2 +1,2 @@
-local v = "V3.0"
-return v
+local ver = "V3.0"
+return ver
