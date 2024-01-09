@@ -1,2 +1,2 @@
-local v = "V1.0"
+local v = "V2.0"
 return v
