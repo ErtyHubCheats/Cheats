@@ -1,2 +1,3 @@
-local v = "V2.0"
+local v = "V3.0"
 return v
+print("test")
