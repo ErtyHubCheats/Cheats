@@ -191,7 +191,7 @@ for _,v in pairs(game.workspace.Dropped:GetChildren()) do
 v = v.Handle				
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v,0)
                         wait()
-                        firetouchinterest((game.Players.LocalPlayer.Character.HumanoidRootPart,v,1)
+                        firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v,1)
 end
 					end
 				end
