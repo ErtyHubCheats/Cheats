@@ -187,12 +187,12 @@ do
 					game:GetService("ReplicatedStorage").RemoteEvents.Drop:FireServer(Input.Value)
 					if workspace.Dropped:FindFirstChild(Input.Value) and workspace.Dropped[Input.Value]:FindFirstChild("Handle") then
 						--workspace.Dropped[Input.Value].Handle.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-for _,v in pairs(game.workspace.Dropped:GetChildren()) do	
-v = v.Handle				
-firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v,0)
-                        wait()
-                        firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v,1)
-end
+            for _,v in pairs(game.workspace.Dropped:GetChildren()) do	
+              v = v.Handle				
+              firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v,0)
+              wait()
+              firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v,1)
+            end
 					end
 				end
 			end
