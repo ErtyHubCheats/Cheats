@@ -1,1 +1,1 @@
-print("load")
+return "accept"
