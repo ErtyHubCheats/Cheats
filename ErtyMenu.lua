@@ -293,6 +293,7 @@ function _G.Library:new(option)
 		_G.Library.Tree["11b"..cl_button]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 		_G.Library.Tree["11b"..cl_button]["BackgroundTransparency"] = 1;
 		_G.Library.Tree["11b"..cl_button]["Position"] = UDim2.new(1, 0, 0, 0);
+		cl_button += 1
 		NewButton.MouseButton1Click:Connect(function()
 			pcall(Setting.Function)
 		end)
@@ -348,6 +349,7 @@ function _G.Library:new(option)
 		NewToggle["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 		NewToggle["Name"] = [[Toggle]];
 		local c_toggle = cl_toggle
+		cl_toggle += 1
 		-- StarterGui.MyLibrary.Main.ContentContainer.Toggle.UICorner
 		_G.Library.Tree["1bb"..c_toggle] = Instance.new("UICorner", NewToggle);
 		_G.Library.Tree["1bb"..c_toggle]["CornerRadius"] = UDim.new(0, 12);
@@ -394,6 +396,7 @@ function _G.Library:new(option)
 		-- StarterGui.MyLibrary.Main.ContentContainer.Toggle.Frame.UICorner
 		_G.Library.Tree["20"..c_toggle] = Instance.new("UICorner", _G.Library.Tree["1ff"..c_toggle]);
 		_G.Library.Tree["3hg"..c_toggle] = Instance.new("BoolValue", _G.Library.Tree["1ff"..c_toggle])
+		_G.Library.Tree["3hg"..c_toggle].Name = c_toggle
 		_G.Library.Tree["1ff"..c_toggle].MouseButton1Click:Connect(function()
 			_G.Library.Tree["3hg"..c_toggle].Value = not _G.Library.Tree["3hg"..c_toggle].Value
 			local Value = _G.Library.Tree["3hg"..c_toggle].Value
@@ -471,4 +474,4 @@ function _G.Library:new(option)
 	end
 end
 
-return _G.Library  
+return _G.Library
