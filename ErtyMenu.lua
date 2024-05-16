@@ -395,8 +395,8 @@ function _G.Library:new(option)
 		_G.Library.Tree["20"..cl_toggle] = Instance.new("UICorner", _G.Library.Tree["1ff"..cl_toggle]);
 		_G.Library.Tree["3hg"..cl_toggle] = Instance.new("BoolValue", _G.Library.Tree["1ff"..cl_toggle])
 		_G.Library.Tree["1ff"..cl_toggle].MouseButton1Click:Connect(function()
-			_G.Library.Tree["3hg"].Value = not _G.Library.Tree["3hg"..cl_toggle].Value
-			local Value = _G.Library.Tree["3hg"].Value
+			_G.Library.Tree["3hg"..cl_toggle].Value = not _G.Library.Tree["3hg"..cl_toggle].Value
+			local Value = _G.Library.Tree["3hg"..cl_toggle].Value
 			if Value then
 				_G.Library.Tree["1ff"..cl_toggle]["BackgroundColor3"] = Color3.fromRGB(0, 195, 0)
 			else
