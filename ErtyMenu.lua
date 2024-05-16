@@ -347,64 +347,64 @@ function _G.Library:new(option)
 		NewToggle["Position"] = UDim2.new(0, 0, 0.01842, 0);
 		NewToggle["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 		NewToggle["Name"] = [[Toggle]];
-
+		local c_toggle = cl_toggle
 		-- StarterGui.MyLibrary.Main.ContentContainer.Toggle.UICorner
-		_G.Library.Tree["1bb"..cl_toggle] = Instance.new("UICorner", NewToggle);
-		_G.Library.Tree["1bb"..cl_toggle]["CornerRadius"] = UDim.new(0, 12);
+		_G.Library.Tree["1bb"..c_toggle] = Instance.new("UICorner", NewToggle);
+		_G.Library.Tree["1bb"..c_toggle]["CornerRadius"] = UDim.new(0, 12);
 
 		-- StarterGui.MyLibrary.Main.ContentContainer.Toggle.UIStroke
-		_G.Library.Tree["1cc"..cl_toggle] = Instance.new("UIStroke", NewToggle);
-		_G.Library.Tree["1cc"..cl_toggle]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-		_G.Library.Tree["1cc"..cl_toggle]["Color"] = Color3.fromRGB(255, 255, 255);
+		_G.Library.Tree["1cc"..c_toggle] = Instance.new("UIStroke", NewToggle);
+		_G.Library.Tree["1cc"..c_toggle]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+		_G.Library.Tree["1cc"..c_toggle]["Color"] = Color3.fromRGB(255, 255, 255);
 
 		-- StarterGui.MyLibrary.Main.ContentContainer.Toggle.UIPadding
-		_G.Library.Tree["1dd"..cl_toggle] = Instance.new("UIPadding", NewToggle);
-		_G.Library.Tree["1dd"..cl_toggle]["PaddingTop"] = UDim.new(0, 6);
-		_G.Library.Tree["1dd"..cl_toggle]["PaddingRight"] = UDim.new(0, 6);
-		_G.Library.Tree["1dd"..cl_toggle]["PaddingLeft"] = UDim.new(0, 6);
-		_G.Library.Tree["1dd"..cl_toggle]["PaddingBottom"] = UDim.new(0, 6);
+		_G.Library.Tree["1dd"..c_toggle] = Instance.new("UIPadding", NewToggle);
+		_G.Library.Tree["1dd"..c_toggle]["PaddingTop"] = UDim.new(0, 6);
+		_G.Library.Tree["1dd"..c_toggle]["PaddingRight"] = UDim.new(0, 6);
+		_G.Library.Tree["1dd"..c_toggle]["PaddingLeft"] = UDim.new(0, 6);
+		_G.Library.Tree["1dd"..c_toggle]["PaddingBottom"] = UDim.new(0, 6);
 
 		-- StarterGui.MyLibrary.Main.ContentContainer.Toggle.Title
-		_G.Library.Tree["1ee"..cl_toggle] = Instance.new("TextLabel", NewToggle);
-		_G.Library.Tree["1ee"..cl_toggle]["TextWrapped"] = true;
-		_G.Library.Tree["1ee"..cl_toggle]["BorderSizePixel"] = 0;
-		_G.Library.Tree["1ee"..cl_toggle]["TextXAlignment"] = Enum.TextXAlignment.Left;
-		_G.Library.Tree["1ee"..cl_toggle]["TextScaled"] = true;
-		_G.Library.Tree["1ee"..cl_toggle]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-		_G.Library.Tree["1ee"..cl_toggle]["TextSize"] = 14;
-		_G.Library.Tree["1ee"..cl_toggle]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-		_G.Library.Tree["1ee"..cl_toggle]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-		_G.Library.Tree["1ee"..cl_toggle]["BackgroundTransparency"] = 1;
-		_G.Library.Tree["1ee"..cl_toggle]["Size"] = UDim2.new(1, 0, 0.89535, 0);
-		_G.Library.Tree["1ee"..cl_toggle]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-		_G.Library.Tree["1ee"..cl_toggle]["Text"] = Setting.Title;
-		_G.Library.Tree["1ee"..cl_toggle]["Name"] = [[Title]];
+		_G.Library.Tree["1ee"..c_toggle] = Instance.new("TextLabel", NewToggle);
+		_G.Library.Tree["1ee"..c_toggle]["TextWrapped"] = true;
+		_G.Library.Tree["1ee"..c_toggle]["BorderSizePixel"] = 0;
+		_G.Library.Tree["1ee"..c_toggle]["TextXAlignment"] = Enum.TextXAlignment.Left;
+		_G.Library.Tree["1ee"..c_toggle]["TextScaled"] = true;
+		_G.Library.Tree["1ee"..c_toggle]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		_G.Library.Tree["1ee"..c_toggle]["TextSize"] = 14;
+		_G.Library.Tree["1ee"..c_toggle]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+		_G.Library.Tree["1ee"..c_toggle]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+		_G.Library.Tree["1ee"..c_toggle]["BackgroundTransparency"] = 1;
+		_G.Library.Tree["1ee"..c_toggle]["Size"] = UDim2.new(1, 0, 0.89535, 0);
+		_G.Library.Tree["1ee"..c_toggle]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+		_G.Library.Tree["1ee"..c_toggle]["Text"] = Setting.Title;
+		_G.Library.Tree["1ee"..c_toggle]["Name"] = [[Title]];
 
 		-- StarterGui.MyLibrary.Main.ContentContainer.Toggle.Frame
-		_G.Library.Tree["1ff"..cl_toggle] = Instance.new("TextButton", NewToggle);
-		_G.Library.Tree["1ff"..cl_toggle]["BorderSizePixel"] = 0;
-		_G.Library.Tree["1ff"..cl_toggle]["BackgroundColor3"] = Color3.fromRGB(89, 89, 89);
-		_G.Library.Tree["1ff"..cl_toggle]["AnchorPoint"] = Vector2.new(1, 0);
-		_G.Library.Tree["1ff"..cl_toggle]["Size"] = UDim2.new(0.082, 0, 0.92, 0);
-		_G.Library.Tree["1ff"..cl_toggle]["Position"] = UDim2.new(1, 0, 0, 0);
-		_G.Library.Tree["1ff"..cl_toggle]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-		_G.Library.Tree["1ff"..cl_toggle]["TextTransparency"] = 1
-		_G.Library.Tree["1ff"..cl_toggle]["ZIndex"] = 10
+		_G.Library.Tree["1ff"..c_toggle] = Instance.new("TextButton", NewToggle);
+		_G.Library.Tree["1ff"..c_toggle]["BorderSizePixel"] = 0;
+		_G.Library.Tree["1ff"..c_toggle]["BackgroundColor3"] = Color3.fromRGB(89, 89, 89);
+		_G.Library.Tree["1ff"..c_toggle]["AnchorPoint"] = Vector2.new(1, 0);
+		_G.Library.Tree["1ff"..c_toggle]["Size"] = UDim2.new(0.082, 0, 0.92, 0);
+		_G.Library.Tree["1ff"..c_toggle]["Position"] = UDim2.new(1, 0, 0, 0);
+		_G.Library.Tree["1ff"..c_toggle]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+		_G.Library.Tree["1ff"..c_toggle]["TextTransparency"] = 1
+		_G.Library.Tree["1ff"..c_toggle]["ZIndex"] = 10
 
 		-- StarterGui.MyLibrary.Main.ContentContainer.Toggle.Frame.UICorner
-		_G.Library.Tree["20"..cl_toggle] = Instance.new("UICorner", _G.Library.Tree["1ff"..cl_toggle]);
-		_G.Library.Tree["3hg"..cl_toggle] = Instance.new("BoolValue", _G.Library.Tree["1ff"..cl_toggle])
-		_G.Library.Tree["1ff"..cl_toggle].MouseButton1Click:Connect(function()
-			_G.Library.Tree["3hg"..cl_toggle].Value = not _G.Library.Tree["3hg"..cl_toggle].Value
-			local Value = _G.Library.Tree["3hg"..cl_toggle].Value
+		_G.Library.Tree["20"..c_toggle] = Instance.new("UICorner", _G.Library.Tree["1ff"..c_toggle]);
+		_G.Library.Tree["3hg"..c_toggle] = Instance.new("BoolValue", _G.Library.Tree["1ff"..c_toggle])
+		_G.Library.Tree["1ff"..c_toggle].MouseButton1Click:Connect(function()
+			_G.Library.Tree["3hg"..c_toggle].Value = not _G.Library.Tree["3hg"..c_toggle].Value
+			local Value = _G.Library.Tree["3hg"..c_toggle].Value
 			if Value then
-				_G.Library.Tree["1ff"..cl_toggle]["BackgroundColor3"] = Color3.fromRGB(0, 195, 0)
+				_G.Library.Tree["1ff"..c_toggle]["BackgroundColor3"] = Color3.fromRGB(0, 195, 0)
 			else
-				_G.Library.Tree["1ff"..cl_toggle]["BackgroundColor3"] = Color3.fromRGB(89, 89, 89)
+				_G.Library.Tree["1ff"..c_toggle]["BackgroundColor3"] = Color3.fromRGB(89, 89, 89)
 			end
 			pcall(Setting.Function(Value))
 		end)
-		return _G.Library.Tree["3hg"..cl_toggle]
+		return _G.Library.Tree["3hg"..c_toggle]
 	end
 	function _G.Library:AddInput(Setting)
 		-- StarterGui.MyLibrary.Main.ContentContainer.Input
@@ -471,4 +471,4 @@ function _G.Library:new(option)
 	end
 end
 
-return _G.Library
+return _G.Library  
