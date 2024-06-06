@@ -590,6 +590,7 @@ function _G.Library:new(option)
 		_G.Library.Tree["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 		_G.Library.Tree["27"]["PlaceholderText"] = Setting.TX;
 		_G.Library.Tree["27"]["Text"] = "";
+		NLK["Value"] = _G.Library.Tree["27"]
 
 		-- StarterGui.MyLibrary.Main.ContentContainer.Input.TextBox.UICorner
 		_G.Library.Tree["28"] = Instance.new("UICorner", _G.Library.Tree["27"]);
