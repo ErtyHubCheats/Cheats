@@ -1,10 +1,10 @@
 local wl = {
 p_list = {
-"",
 "ArTemOp121",
 "slapbatles2322",
 "type_708",
-"<@1203235022056722463>",
+"",
+"DimaVIR2013",
 }
 }
 return wl
