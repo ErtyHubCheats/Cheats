@@ -1,4 +1,3 @@
 local wl = {
-[""],
-["ArTemOp121"],
+"ArTemOp121",
 }
