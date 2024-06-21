@@ -5,6 +5,7 @@ p_list = {
 "ArTemOp121",
 "type_708",
 "rostilikom5006",
+"DimaVIR2013",
 }
 }
 return wl
