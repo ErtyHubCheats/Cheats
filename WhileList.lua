@@ -17,7 +17,7 @@ local lss = {
         ["ewkere_14885"] = "qsZkMQLt_KkouFm",
         ["slapbatles2322"] = "DGjHVGhGjXcMECP",
         ["rostilikom5006"] = "xjCDRoGcPNEHWQm",
-        ["daniil098905"} = "_kEHVGhGoPDMECP"
+        ["daniil098905"] = "_kEHVGhGoPDMECP"
     }
 }
 
