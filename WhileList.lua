@@ -6,6 +6,7 @@ local lss = {
         "ewkere_14885",
         "slapbatles2322",
         "rostilikom5006",
+        "daniil098905",
     },
     k_list = {
         ["MarkTu_Fiw"] = "lcvKpnffUhfUpNs",
@@ -14,6 +15,7 @@ local lss = {
         ["ewkere_14885"] = "qsZkMQLt_KkouFm",
         ["slapbatles2322"] = "DGjHVGhGjXcMECP",
         ["rostilikom5006"] = "xjCDRoGcPNEHWQm",
+        ["daniil098905"} = "_kEHVGhGoPDMECP"
     }
 }
 
