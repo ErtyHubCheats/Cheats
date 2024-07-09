@@ -1,5 +1,5 @@
 local lss = {
-    p_list = {
+    ["p_list"] = {
         "MarkTu_Fiw",
         "ArTemOp121",
         "ArTemOp122",
@@ -9,7 +9,7 @@ local lss = {
         "rostilikom5006",
         "daniil098905",
     },
-    k_list = {
+    ["k_list"] = {
         ["MarkTu_Fiw"] = "lcvKpnffUhfUpNs",
         ["ArTemOp121"] = "Dev",
         ["ArTemOp122"] = "Dev",
