@@ -4,7 +4,6 @@ local lss = {
         "ArTemOp121",
         "ArTemOp122",
         "groman64",
-        "ewkere_14885",
         "slapbatles2322",
         "rostilikom5006",
         "daniil098905",
@@ -14,7 +13,6 @@ local lss = {
         ["ArTemOp121"] = "Dev",
         ["ArTemOp122"] = "Dev",
         ["groman64"] = "sqCQHomfscHmDso",
-        ["ewkere_14885"] = "qsZkMQLt_KkouFm",
         ["slapbatles2322"] = "DGjHVGhGjXcMECP",
         ["rostilikom5006"] = "xjCDRoGcPNEHWQm",
         ["daniil098905"] = "_kEHVGhGoPDMECP"
