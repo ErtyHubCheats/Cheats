@@ -1,7 +1,7 @@
 local lss = {
     ["p_list"] = {
         "MarkTu_Fiw",
-        "ArTemOp121",
+        "Bot_1Places",
         "ArTemOp122",
         "groman64",
         "slapbatles2322",
