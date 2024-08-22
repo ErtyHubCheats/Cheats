@@ -10,7 +10,7 @@ local lss = {
     },
     ["k_list"] = {
         ["MarkTu_Fiw"] = "lcvKpnffUhfUpNs",
-        ["ArTemOp121"] = "Dev",
+        ["Bot_1Places"] = "Dev",
         ["ArTemOp122"] = "Dev",
         ["groman64"] = "sqCQHomfscHmDso",
         ["slapbatles2322"] = "DGjHVGhGjXcMECP",
