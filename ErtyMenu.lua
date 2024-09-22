@@ -650,7 +650,7 @@ function Library:new(option)
 		return NLK
 	end
 	function Library:AddDropdown(Setting)
-		Tabs_b[Setting.Parent]["CanvasSize"] = UDim2.new(0, 0, Tabs_b[Setting.Parent]["CanvasSize"].Y.Scale+0.1, Tabs_b[Setting.Parent]["CanvasSize"].Y.Offset + 15);
+		Tabs_b[Setting.Parent]["CanvasSize"] = UDim2.new(0, 0, Tabs_b[Setting.Parent]["CanvasSize"].Y.Scale+0.1, Tabs_b[Setting.Parent]["CanvasSize"].Y.Offset + 200);
 		Tabs_dropdown[Setting.Slog] = Instance.new("TextButton", Tabs_b[Setting.Parent]);
 		Tabs_dropdown[Setting.Slog]["BorderSizePixel"] = 0;
 		Tabs_dropdown[Setting.Slog]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
