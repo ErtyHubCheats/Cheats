@@ -727,7 +727,7 @@ function Library:new(option)
 		Tabs_dropdown2[Setting.Slog] = Instance.new("ScrollingFrame", Library.Tree["2er"]);
 		Tabs_dropdown2[Setting.Slog]["Active"] = true;
 		Tabs_dropdown2[Setting.Slog]["BorderSizePixel"] = 0;
-		Tabs_dropdown2[Setting.Slog]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+		Tabs_dropdown2[Setting.Slog]["CanvasSize"] = UDim2.new(0, 0, 4, 0);
 		Tabs_dropdown2[Setting.Slog]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 		Tabs_dropdown2[Setting.Slog]["Name"] = Setting.Slog;
 		Tabs_dropdown2[Setting.Slog]["Size"] = UDim2.new(1, 0, 1, 0);
@@ -807,7 +807,6 @@ function Library:new(option)
 			-- StarterGui.MyLibrary.Main.Frame.Button.UIAspectRatioConstraint
 			Library.Tree["3e"] = Instance.new("UIAspectRatioConstraint", NewBTD);
 			Library.Tree["3e"]["AspectRatio"] = 8.256;
-			Tabs_dropdown2[Setting.Slog]["CanvasSize"] = UDim2.new(0, 0, 0, Tabs_dropdown2[Setting.Slog]["CanvasSize"].Y.Offset + NewBTD.AbsoluteSize.Y + NewBTD.AbsoluteSize.Y);
 			local ltx = Library.Tree["3c"].Text
 			NewBTD.MouseButton1Click:Connect(function()
 				tl.Text = ltx
