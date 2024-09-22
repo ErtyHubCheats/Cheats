@@ -807,7 +807,7 @@ function Library:new(option)
 			-- StarterGui.MyLibrary.Main.Frame.Button.UIAspectRatioConstraint
 			Library.Tree["3e"] = Instance.new("UIAspectRatioConstraint", NewBTD);
 			Library.Tree["3e"]["AspectRatio"] = 8.256;
-			Tabs_dropdown2[Setting.Slog]["CanvasSize"] = UDim2.new(0, 0, 0, Tabs_dropdown2[Setting.Slog]["CanvasSize"].Y.Offset + NewBTD.AbsoluteSize.Y);
+			Tabs_dropdown2[Setting.Slog]["CanvasSize"] = UDim2.new(0, 0, 0, Tabs_dropdown2[Setting.Slog]["CanvasSize"].Y.Offset + NewBTD.AbsoluteSize.Y + NewBTD.AbsoluteSize.Y);
 			local ltx = Library.Tree["3c"].Text
 			NewBTD.MouseButton1Click:Connect(function()
 				tl.Text = ltx
