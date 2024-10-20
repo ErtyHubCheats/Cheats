@@ -110,7 +110,7 @@ function Library:new(option)
 	Library.Tree["8"]["Size"] = UDim2.new(0.6, 0, 1, 0);
 	Library.Tree["8"]["Position"] = UDim2.new(0, 10, 0, 0);
 	Library.Tree["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-	Library.Tree["8"]["Text"] = option.Name.."     by "..option.BY;
+	Library.Tree["8"]["Text"] = option.Name.."	by "..option.BY;
 	Library.Tree["8"]["Name"] = [[Title]];
 
 	-- StarterGui.MyLibrary.Main.TopBar.Title.UIPadding
